@@ -39,7 +39,7 @@ def count_letters(word):
     """
     # counting the number of letters in a word
     # use a built in function that count the number of letters in a string
-    
+
     count = len(word)
     return count
 
@@ -133,14 +133,14 @@ def second_largest(numbers):
     If fewer than 2 unique numbers, return None.
     """
     
-    unique_num = list(set(numbers))
+    duplicate_num = list(set(numbers))
 
-    if len(unique_num) < 2:
+    if len(duplicate_num) < 2:
         return None
     
-    unique_num.sort()
+    duplicate_num.sort()
 
-    return unique_num[-2]
+    return duplicate_num[-2]
 
     
     
