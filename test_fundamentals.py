@@ -1,5 +1,5 @@
 import unittest
-from fundamentals import *
+from fundamentals import multiply_numbers, is_positive, count_letters, smallest_number, capitalize_word, sum_list, contains_number,square_number, remove_spaces, repeat_word, count_words, second_largest
 
 class TestFundamentals(unittest.TestCase):
 
