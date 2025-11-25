@@ -4,8 +4,13 @@ def multiply_numbers(a, b):
     Write a function that takes two numbers (a and b)
     and returns their product.
     """
+    # two integers
+    # use the multiplication sign to get the product
+    # create a variable that is going to store the calculation
+
     product = a * b
     return product
+
 print(multiply_numbers(5, 3))
 
 
@@ -14,6 +19,10 @@ def is_positive(n):
     Problem 2:
     Return True if 'n' is positive, otherwise return False.
     """
+    # check if the given number is postive or negative
+    # the number is less 0 it should be negative
+    # the number that is greater than 0 is postive
+
     number = 0
 
     if n > number :
@@ -28,6 +37,9 @@ def count_letters(word):
     Problem 3:
     Return how many characters are in a given word.
     """
+    # counting the number of letters in a word
+    # use a built in function that count the number of letters in a string
+    
     count = len(word)
     return count
 
